@@ -42,6 +42,7 @@ void main() {
   //   print("Sayılar birbirine eşit degil");
   // }
 
+// İF ELSE BLOCK CONDİTİON ------------------
   // print("Enter Two Number:");
   // String? num1 = stdin.readLineSync();
   // String? num2 = stdin.readLineSync();
@@ -52,7 +53,7 @@ void main() {
   //   print("Sayı 2 sayı 1 den büyük");
   // }
 
-  const int sayi1 = 25;
+  // const int sayi1 = 16;
   // const int sayi2 = 16;
 
   // if (sayi1 == sayi2) {
@@ -63,17 +64,21 @@ void main() {
   //   print("Sayı 2 Sayı 1'Den büyüktür");
   // }
 
-  switch (sayi1) {
-    case 30:
-      print("Sayı 1'in degeri 30'dur");
+  // switch (sayi1) {
+  //   case 30:
+  //     print("Sayı 1'in degeri 30'dur");
+  //     break;
 
-    case 16:
-      print("Sayı 1'in degeri 16'dır");
+  //   case 16:
+  //     print("Evet Sayı 1'in degeri 16'dır Ahmet Ofa bas kardaş");
+  //     break;
 
-    default:
-      print("Hiçbir Koşul Saglanmadı");
+  //   default:
+  //     print("Hiçbir Koşul Saglanmadı");
+  // }
+
+// LOOPS ----------------------
+  for (int i = 16; i <= 30; i++) {
+    print("Sayı: $i");
   }
-
-
-  
 }

@@ -52,7 +52,7 @@ void main() {
   //   print("Sayı 2 sayı 1 den büyük");
   // }
 
-  // const int sayi1 = 16;
+  const int sayi1 = 25;
   // const int sayi2 = 16;
 
   // if (sayi1 == sayi2) {
@@ -62,4 +62,18 @@ void main() {
   // } else {
   //   print("Sayı 2 Sayı 1'Den büyüktür");
   // }
+
+  switch (sayi1) {
+    case 30:
+      print("Sayı 1'in degeri 30'dur");
+
+    case 16:
+      print("Sayı 1'in degeri 16'dır");
+
+    default:
+      print("Hiçbir Koşul Saglanmadı");
+  }
+
+
+  
 }

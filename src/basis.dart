@@ -24,10 +24,31 @@ void main() {
   // int num2 = stdin.readByteSync();
   // print("Girilen 2 sayının toplamı :" + num.toString() + num2.toString());
 
+  // print("Enter Two Number:");
+  // String? num1 = stdin.readLineSync();
+  // String? num2 = stdin.readLineSync();
+
+  // print(
+  //     "The entered name is ${int.parse(num1.toString()) + int.parse(num2.toString())}");
+
+  // const int text = 16;
+  // const String number = "16";
+
+  // const esitMi = text == number;
+
+  // if (esitMi) {
+  //   print("Sayılar birbirine eşit");
+  // } else {
+  //   print("Sayılar birbirine eşit degil");
+  // }
+
   print("Enter Two Number:");
   String? num1 = stdin.readLineSync();
   String? num2 = stdin.readLineSync();
 
-  print(
-      "The entered name is ${int.parse(num1.toString()) + int.parse(num2.toString())}");
+  if (int.parse(num1.toString()) > int.parse(num2.toString())) {
+    print("Sayı 1 sayı 2 den büyük");
+  } else {
+    print("Sayı 2 sayı 1 den büyük");
+  }
 }

@@ -92,11 +92,40 @@ void main() {
 
   // Başlangıç degeri 0 koşulumuz i degeri 5 den küçük oldugu müddetçe i++ diyerek i degerini 1 arttır
   // Her gelen i degerini bizim arrayimize index veriyoruz ve bu koşul 5 den küçük oldugu müddetçe çalıştıgı için print ile konsola bütün degerleri basıyor
-  for (var i = 0; i < fruits.length; i++) {
-    print(fruits[i]);
-  }
+  // for (var i = 0; i < fruits.length; i++) {
+  //   print(fruits[i]);
+  // }
 
-  fruits.forEach((meyve, deger) {
-    print("meyve: " + meyve.toString() + ", deger: " + deger.toString());
-  } as void Function(dynamic element));
+  // fruits.forEach((meyve, deger) {
+  //   print("meyve: " + meyve.toString() + ", deger: " + deger.toString());
+  // } as void Function(dynamic element));
+
+  // void greet(text) {
+  //   print("Merhaba hoşgeldiniz" + text.toString());
+  // }
+
+  // greet("Emre");
+
+  // void calculator(num1, num2) {
+  //   var result = num1 + num2;
+  //   print("Girilen sayıların sonucu: " + result.toString());
+  // }
+
+  // calculator(12, 5);
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

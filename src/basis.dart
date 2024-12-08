@@ -95,4 +95,8 @@ void main() {
   for (var i = 0; i < fruits.length; i++) {
     print(fruits[i]);
   }
+
+  fruits.forEach((meyve, deger) {
+    print("meyve: " + meyve.toString() + ", deger: " + deger.toString());
+  } as void Function(dynamic element));
 }

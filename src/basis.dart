@@ -77,8 +77,22 @@ void main() {
   //     print("Hiçbir Koşul Saglanmadı");
   // }
 
-// LOOPS ----------------------
+  // LOOPS ----------------------
   for (int i = 16; i <= 30; i++) {
     print("Sayı: $i");
+  }
+
+  // ARRAYS ---------
+
+  List fruits = ["Muz", "Elma", "Armut", "Çilek", "Şeftali"];
+  print("Meyveler: " + fruits.toString());
+
+  print("-------");
+  print(fruits[3]);
+
+  // Başlangıç degeri 0 koşulumuz i degeri 5 den küçük oldugu müddetçe i++ diyerek i degerini 1 arttır
+  // Her gelen i degerini bizim arrayimize index veriyoruz ve bu koşul 5 den küçük oldugu müddetçe çalıştıgı için print ile konsola bütün degerleri basıyor
+  for (var i = 0; i < fruits.length; i++) {
+    print(fruits[i]);
   }
 }

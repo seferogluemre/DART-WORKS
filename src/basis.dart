@@ -113,11 +113,33 @@ void main() {
 
   // calculator(12, 5);
 
-  
+  List ögrenciler=[
+    Ögrenci("Emre",16),
+    Ögrenci("Efe",16),
+    Ögrenci("Ahmet",15),
+  ]
+
+  for (Ögrenci ögrenci in ögrenciler){
+    print(ögrenci.isim)
+  }
 
 
 
 
+
+  Class Ögrenci{
+      final String isim;
+      final int yas;
+
+      Ögrenci(this.isim,this.yas);
+
+
+      void print(){
+        print("İsim :"+isim.toString()+" yaş:"+yas.toString());
+      }
+
+
+  }
 
 
 

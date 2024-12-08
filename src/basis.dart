@@ -42,13 +42,24 @@ void main() {
   //   print("Sayılar birbirine eşit degil");
   // }
 
-  print("Enter Two Number:");
-  String? num1 = stdin.readLineSync();
-  String? num2 = stdin.readLineSync();
+  // print("Enter Two Number:");
+  // String? num1 = stdin.readLineSync();
+  // String? num2 = stdin.readLineSync();
 
-  if (int.parse(num1.toString()) > int.parse(num2.toString())) {
-    print("Sayı 1 sayı 2 den büyük");
-  } else {
-    print("Sayı 2 sayı 1 den büyük");
-  }
+  // if (int.parse(num1.toString()) > int.parse(num2.toString())) {
+  //   print("Sayı 1 sayı 2 den büyük");
+  // } else {
+  //   print("Sayı 2 sayı 1 den büyük");
+  // }
+
+  // const int sayi1 = 16;
+  // const int sayi2 = 16;
+
+  // if (sayi1 == sayi2) {
+  //   print("2 Sayıda birbirine eşit");
+  // } else if (sayi1 > sayi2) {
+  //   print("Sayı 1 Sayı 2'Den büyüktür");
+  // } else {
+  //   print("Sayı 2 Sayı 1'Den büyüktür");
+  // }
 }
